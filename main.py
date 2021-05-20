@@ -34,7 +34,7 @@ n: Enter n/N to exit: '''
             print(f"Invalid operation: {choice}")
             result = None
         
-        choice = input('Contibue? (y/n): ')
+        choice = input('Continue? (y/n): ')
         validate_choice(choice)
 
 main()
